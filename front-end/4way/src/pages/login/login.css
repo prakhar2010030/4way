@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+.login {
+  display: flex;
+  height: 100vh;
+}
+.leftContainer {
+  flex: 8;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 5rem;
+  background: url("../../assets/Images/login.png");
+  height: 100vh;
+  background-size: 100% 100%;
+  
+}
+.leftContainer h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.04em;
+  color: #043a5c;
+}
+.imageContainer {
+    /* height: 20vh; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rightContainer {
+  flex: 4;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1rem;
+  border-left: 1px solid rgb(237, 237, 237);
+}
+.formContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.formContainer h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -0.04em;
+  color: #273136;
+}
+
+.splitter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  color: gray;
+}
+.input {
+  background: #ffffff;
+  border: 0.5px solid #dadce0;
+  border-radius: 6px;
+  padding: 0.8rem;
+  width: 100%;
+}
+.passwordField {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.invisibleIcon {
+  color: gray;
+  cursor: pointer;
+}
+.input input {
+  border: none;
+  outline: none;
+}
+.link {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #087ec6;
+  text-decoration: none;
+}
+.linkContainer {
+  width: 100%;
+}
+
+.line {
+  width: 142px;
+  border: 0.5px solid #dadce0;
+}
+.googleBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background: #ffffff;
+  border-radius: 6px;
+  width: 100%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.04em;
+  color: #3a7cec;
+  outline: none;
+  border: 1px solid #3a7cec;
+  cursor: pointer;
+  padding: 0.6rem;
+}
+.loginBtn {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.04em;
+  color: #ffffff;
+  width: 100%;
+  padding: 0.6rem;
+  background: #087ec6;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.signupDescription {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+.signupDescription p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #afbdc5;
+}
+.signUp {
+  color: #3a7cec;
+}
+
+.error {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+text-align: left;
+  color: #b61a12;
+}
+.ERROR{
+  outline:1px solid #b61a12;
+}
